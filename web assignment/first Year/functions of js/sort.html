@@ -1,0 +1,35 @@
+<html>
+<head></head>
+<body>
+
+<script type="text/javascript">
+
+var a=new Array();
+
+a[0]=1;
+a[1]=2;
+a[2]=20;
+a[3]=15;
+
+var i,j,temp;
+
+for(i=0;i<a.length-1;i++)
+{	
+	for(j=0;j<a.length-1;j++)
+	{
+		if(a[j]>a[j+1])
+		{
+			temp=a[j];
+			a[j]=a[j+1];
+			a[j+1]=temp;
+		}
+	}
+}
+
+
+for(i=0;i<a.length;i++)
+document.write("<strong>"+a[i]+" </strong><br>");
+
+</script>
+</body>
+</html>

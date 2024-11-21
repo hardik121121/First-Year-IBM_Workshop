@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel=>
+<style>td{text-align:center;}</style>
+<script>
+var flag=true;
+function calc(x)
+{
+if(flag==true)
+{
+document.getElementById("result").innerHTML="";
+}
+document.getElementById("result").innerHTML+=x;
+flag=false;
+}
+function calculate()
+{
+var c=document.getElementById("result").innerHTML;
+var ans=eval(c);
+document.getElementById("result").innerHTML=ans;
+flag=true;
+}
+</script>
+<title>calculator</title>
+</head>
+<body>
+<table border=10 align="center">
+<tr><td colspan=4>
+<textarea id="result" disabled>
+0
+</textarea>
+</td>
+</tr>
+<tr>
+<td><button type="button" onclick=calc("7")>7</button></td>
+<td><button type="button" onclick=calc("8")>8</button></td>
+<td><button type="button" onclick=calc("9")>9</button></td>
+<td><button type="button" onclick=calc("+")>+</button></td>
+</tr>
+<tr><td><button type="button" onclick=calc("4")>4</button></td>
+<td><button type="button" onclick=calc("5")>5</button></td>
+<td><button type="button" onclick=calc("6")>6</button></td>
+<td><button type="button" onclick=calc("-")>-</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick=calc("1")>1</button></td>
+<td><button type="button" onclick=calc("2")>2</button></td>
+<td><button type="button" onclick=calc("3")>3</button></td>
+<td><button type="button" onclick=calc("*")>*</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick=calc(".")>.</button></td>
+<td><button type="button" onclick=calc("0")>0</button></td>
+<td><button type="button" onclick="calculate()">=</button></td>
+<td><button type="button" onclick=calc("/")>/</button></td>
+</tr>
+</table>
+</body>
+</html>

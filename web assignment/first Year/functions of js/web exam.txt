@@ -1,0 +1,16 @@
+Q1.what are the different type of arrays in php. give example of each?(numeric,associative,multidimensional)..
+Q2.enlist any 3 inbuilt functionsthat can be calledusing aaray variable give the syntax of each?(len(),sort(),reversesort())..
+Q3.what do you mean by file handling in php? what are the different modes of opening a file? differentiate between append and write?
+Q4.wap in php that displays the content of a file on the browse.
+Q5.wap in php that helps to write contents entered by the user in a file stored on the server.
+Q5.what do you mean by oops? what are characterstics of oops?explain in brief?
+Q6.what do you mean by a constructor? how is a constructor different from aa function?
+Q7.program related to oops along with constructor?
+Q8.how can you handle form data  in php?,form data entered by the user in php?(get,post)...
+Q9. difference between$_GET,4_POST,$_REQUEST in php? what are super globals in php(get,post request,session)..
+Q10 what do you mean by session variable? how do you manage session variable inphp? wap in php to manage session variable?
+Q11. diff between session and cookies(session-server site, differ with user)(cookies-browsersite,cookies differ with web browser,advantagee-shows data matching to previous searches)..
+Q12.wap in php  that takes the data from the user throough a form and stores it in a database?
+Q13.develop an application in php that displays the data in the database on the browser?
+Q14. diif between html and xml?characterstics of xml? what is a well formed xml document?create an xml document that stores the data of five employees in it.
+Q15.what do you mean by an exception? how is  an exception different from an error?what are the keywords used in exception handling?wap to show the use of exception handling?

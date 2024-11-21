@@ -1,0 +1,15 @@
+<html>
+<body>
+
+
+<button type="button" onclick="setInterval(function(){myTimer()}, 1000);">Start Clock</button>
+<p id="demo"></p>
+<script>
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</body>
+</html>

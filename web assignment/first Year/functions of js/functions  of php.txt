@@ -1,0 +1,4 @@
+$s=wasitacaroracatisaw
+$t=str_replace($s,"","");
+$u=strtolower($t);
+$w=strrev($u);
